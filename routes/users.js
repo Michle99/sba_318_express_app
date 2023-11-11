@@ -8,3 +8,5 @@ router.get('/', (req, res) => {
 });
 
 module.exports = router;
+
+// Add links to the routes to conform to rest principles
