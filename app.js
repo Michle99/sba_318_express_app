@@ -43,6 +43,7 @@ app.use('/details', imageDetailsRouter);
 // Routes for JSON Data
 app.use('/api', indexRouter);
 app.use('/api', usersRouter);
+app.use('/api', usersRouter);
 app.use('/api', imagesRouter);
 app.use('/api', imageDetailsRouter);
 

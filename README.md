@@ -121,9 +121,11 @@ Note: This is not a test of design; it is a test of serving static files using E
 
 ### Dependencies
 - body-parser
+- bootstrap
 - express
 - nodemon
 - pug
+
 
 ### Getting Started
 Clone this repo: [sba_318_express_app](https://github.com/Michle99/sba_318_express_app.git).
