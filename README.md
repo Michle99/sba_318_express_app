@@ -8,6 +8,7 @@
 5. [Pre-requisites](#pre-requisites)
 6. [Requirements](#requirements)
 7. [Screenshots](#screenshots)
+8. [Dependencies](#dep)
 8. [Getting Started](#getting-started)
 
 
@@ -118,4 +119,27 @@ Note: This is not a test of design; it is a test of serving static files using E
 <img src="./public/sba318_scrnshot/details_0.png" width="90%" alt="Photographers Page">
 
 
-##
+### Dependencies
+- body-parser
+- express
+- nodemon
+- pug
+
+### Getting Started
+Clone this repo: [sba_318_express_app](https://github.com/Michle99/sba_318_express_app.git).
+
+- Install dependencies:
+```
+npm install 
+```
+or
+
+```
+npm i
+```
+
+- Start local server:
+
+```
+npm run dev
+```
