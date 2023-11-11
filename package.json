@@ -7,8 +7,13 @@
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Nature Gallery", 
+    "Nature Poem", 
+    "Nature Poem & Gallery", 
+    "Nature Pictures"
+  ],
+  "author": "Michael O",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.0.1"
