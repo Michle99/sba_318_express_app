@@ -86,7 +86,7 @@ const natureDescriptions = [
     }
 ];
 
-console.log(natureDescriptions);
+// console.log(natureDescriptions);
 
   
 module.exports = imageDetails;
