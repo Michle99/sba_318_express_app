@@ -5,7 +5,8 @@ const path = require('path');
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const imagesRouter = require('./routes/images');
-const imageDetailsRouter = require('./routes/imageDetails')
+const imageDetailsRouter = require('./routes/imageDetails');
+const handleErrors = require('./middlewares/errorMiddleware')
 
 const app = express();
 
@@ -26,6 +27,9 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/images', imagesRouter);
 app.use('/details', imageDetailsRouter);
+
+// Use the error-handling middleware
+app.use(handleErrors);
 
 // Start the server
 const PORT = process.env.PORT || 3000;
