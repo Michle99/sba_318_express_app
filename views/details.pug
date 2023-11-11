@@ -2,11 +2,11 @@ extends layout
 
 block content
     .container.mt-4
-        h1.text-center.text-white.mb-4 Nature Poem Gallery
+        h3.text-center.text-white.mb-4 Nature Poem Gallery
         .row
             .col-md-6
                 .image-container
                     img.img-fluid.compact-image(src=image.url, alt=image.title)
             .col-md-6.animate__animated.animate__fadeInRight
-                h2.text-white.mt-3.mb-2= image.title
+                h4.text-white.mt-3.mb-2= image.title
                 p.lead.text-info= details.description

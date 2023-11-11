@@ -99,3 +99,23 @@ Note: This is not a test of design; it is a test of serving static files using E
 
 
 ### Screenshots
+#### Home Page
+<img src="./public/sba318_scrnshot/images_0.png" width="90%" alt="Home Page">
+<img src="./public/sba318_scrnshot/images_11.png" width="90%" alt="Home Page">
+
+#### Photographers Page
+<img src="./public/sba318_scrnshot/users.png" width="90%" alt="Photographers Page">
+
+<img src="./public/sba318_scrnshot/users_01.png" width="90%" alt="Photographers Page">
+
+
+#### Nature Gallery Page
+<img src="./public/sba318_scrnshot/images_0.png" width="90%" alt="Photographers Page">
+<img src="./public/sba318_scrnshot/images_1.png" width="90%" alt="Photographers Page">
+<img src="./public/sba318_scrnshot/images_11.png" width="90%" alt="Photographers Page">
+
+#### Nature Gallery Poem
+<img src="./public/sba318_scrnshot/details_0.png" width="90%" alt="Photographers Page">
+
+
+##
