@@ -1,4 +1,4 @@
-const nature = [
+const images = [
     { id: 1, title: 'Aurora', url: '/nature/aurora.jpg'},
     { id: 2, title: 'Beach View from Above', url: '/nature/beach_from_above.jpg'},
     { id: 3, title: 'Mountain Beach', url: '/nature/beach_mountains.jpg'},
@@ -17,7 +17,9 @@ const nature = [
     { id: 16, title: 'Long tiring roads', url: '/nature/long_tiring_roads.jpg'},
     { id: 17, title: 'Mountains Trees', url: '/nature/mountain_trees_afar.jpg'},
     { id: 18, title: 'Mountain Water View', url: '/nature/mountain_water_view.jpg'},
-    { id: 19, title: '', url: '/nature/beach_from_above.jpg'},
-    { id: 20, title: 'Beach View from Above', url: '/nature/beach_from_above.jpg'},
-    { id: 21, title: 'Beach View from Above', url: '/nature/beach_from_above.jpg'},
+    { id: 19, title: 'The Ocean', url: '/nature/ocean.jpg'},
+    { id: 20, title: 'Peace by The Beach', url: '/nature/rest_by_beach.jpg'},
+    { id: 21, title: 'Rocky Waters', url: '/nature/rocky_water.jpg'},
 ];
+
+module.exports = images
