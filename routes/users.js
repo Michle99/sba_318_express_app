@@ -3,6 +3,11 @@ const express = require('express');
 const router = express.Router();
 const users = require('../data/users'); // Assuming your user data is in a file named 'users.js'
 
+router.get('/users', (req, res) => {
+    res.json({ users });
+});
+
+
 router.get('/', (req, res) => {
     res.render('users', { title: 'Photographers', users: users });
 });

@@ -34,11 +34,18 @@ app.use(express.static(path.join(__dirname, 'public')));
 // serving maintenance middleware
 app.use(maintenanceMiddleware);
 
-// Routes
+// Routes For Pug View
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/images', imagesRouter);
 app.use('/details', imageDetailsRouter);
+
+// Routes for JSON Data
+app.use('/api', indexRouter);
+app.use('/api', usersRouter);
+app.use('/api', imagesRouter);
+app.use('/api', imageDetailsRouter);
+
 
 // Use the error-handling middleware
 app.use(handleErrors);

@@ -4,19 +4,19 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Nature Gallery", 
-    "Nature Poem", 
-    "Nature Poem & Gallery", 
+    "Nature Gallery",
+    "Nature Poem",
+    "Nature Poem & Gallery",
     "Nature Pictures",
     "Nature Beauty",
     "Tranquility",
     "Blissful",
     "Nature Poem & Gallery App",
-    "Nature Poem App", 
+    "Nature Poem App",
     "Nature Pictures App",
     "Nature Pictures, Poem & Gallery App Built with Pug and Express"
   ],
