@@ -2,7 +2,7 @@
 const express = require('express');
 const router = express.Router();
 const imageDetails = require('../data/imageDetails');
-const images = require('../data/images')
+const images = require('../data/nature')
 
 // GET - Display details for a specific image
 router.get('/:id', (req, res) => {

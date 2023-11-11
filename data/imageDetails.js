@@ -1,7 +1,7 @@
 const imageDetails = {
-    1: { id: 1, description: 'Beautiful nature scene.' },
-    2: { id: 2, description: 'City skyline with lights.' },
-    3: { id: 3, description: 'Abstract art with vibrant colors.' },
+    1: { id: 1, description: 'In the northern sky she dances free, Aurora weaves her tapestry. Ribbons of light, a celestial trance,Night\'s gentle waltz, a cosmic dance.' },
+    2: { id: 2, description: 'Azure waves embrace the shore below, A dance of foam in sunlight\'s glow. Seagulls soar where white sands meet the tide, A beach view from above, where peace resides.' },
+    3: { id: 3, description: 'Mountains watch as waves caress the land, Where peaks and shores entwine, a rugged strand. Nature\'s duet, a harmony untold, Mountain beach, where majesty unfolds.' },
     4: { id: 4, description: 'Abstract art with vibrant colors.' },
     5: { id: 5, description: 'Abstract art with vibrant colors.' },
     6: { id: 6, description: 'Abstract art with vibrant colors.' },
