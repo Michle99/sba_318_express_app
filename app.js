@@ -7,12 +7,12 @@ const usersRouter = require('./routes/users');
 const imagesRouter = require('./routes/images');
 const imageDetailsRouter = require('./routes/imageDetails');
 const handleErrors = require('./middlewares/errorMiddleware');
-const versionHeader = require('./middlewares/versionHeader')
-const customHeaderMiddleware = require('./middlewares/customHeaderMiddleware')
+const versionHeader = require('./middlewares/versionHeader');
+const customHeaderMiddleware = require('./middlewares/customHeaderMiddleware');
 const maintenanceMiddleware = require('./middlewares/maintenanceMiddleware');
 
 
-const app = express();
+const app = express(); 
 
 
 // Custom middleware for logging requests
