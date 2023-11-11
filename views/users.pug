@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  div.container
+    h1.text-center(style='color: black;') #{title} Page
+    ul.list-group
+      each user in users
+        li.list-group-item.bg-dark
+          div.card.bg-light
+            div.card-body
+              h5.card-title #{user.name}
+              p.card-text Username: #{user.username}

@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    h1.text-center Gallery
+    .container.my-4
+        .row
+            each image in images
+                .col-md-4.mb-4
+                    .card.border
+                        img.card-img-top(src=image.url, alt=image.title).img-fluid
+                            h5.card-title= image.title
+                            a.btn.btn-primary(href=`/details/${image.id}`) View Details

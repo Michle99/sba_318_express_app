@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1.text-center.text-white Welcome to #{title} Home
+
+    // Display floating images with CSS animations
+    .container.text-center.mt-4
+        each image in images
+            img.floating-image.m-2.img-thumbnail(src=image.url, alt=image.title)
