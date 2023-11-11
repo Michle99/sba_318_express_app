@@ -1,0 +1,24 @@
+/* public/css/styles.css */
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.image-container {
+    border: 20px solid #e4dfd5; 
+    padding: 10px;
+    border-radius: 16px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.compact-image {
+    max-width: 100%;
+    height: auto; /* Make the image compact in size */
+}
+
+.animate__animated {
+    animation-duration: 1s; /* Set the animation duration */
+}
