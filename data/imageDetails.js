@@ -5,88 +5,40 @@ const imageDetails = {
     4: { id: 4, description: 'Abstract art with vibrant colors.' },
     5: { id: 5, description: 'Abstract art with vibrant colors.' },
     6: { id: 6, description: 'Abstract art with vibrant colors.' },
+    7: { id: 7, description: 'Abstract art with vibrant colors.' },
+    8: { id: 8, description: 'Abstract art with vibrant colors.' },
+    9: { id: 9, description: 'Abstract art with vibrant colors.' },
+    10: { id: 10, description: 'Abstract art with vibrant colors.' },
+    11: { id: 11, description: 'Abstract art with vibrant colors.' },
+    12: { id: 12, description: 'Abstract art with vibrant colors.' },
+    13: { id: 13, description: 'Abstract art with vibrant colors.' },
+    14: { id: 14, description: 'Abstract art with vibrant colors.' },
+    15: { id: 15, description: 'Abstract art with vibrant colors.' },
+    16: { id: 16, description: 'Abstract art with vibrant colors.' },
+    17: { id: 17, description: 'Abstract art with vibrant colors.' },
+    18: { id: 18, description: 'Abstract art with vibrant colors.' },
+    19: { id: 19, description: 'Abstract art with vibrant colors.' },
+    20: { id: 20, description: 'Abstract art with vibrant colors.' },
+    21: { id: 21, description: 'Abstract art with vibrant colors.' },
+    22: { id: 22, description: 'Abstract art with vibrant colors.' },
+    23: { id: 23, description: 'Abstract art with vibrant colors.' },
+    24: { id: 24, description: 'Abstract art with vibrant colors.' },
+    25: { id: 25, description: 'Abstract art with vibrant colors.' },
+    26: { id: 26, description: 'Abstract art with vibrant colors.' },
+    27: { id: 27, description: 'Abstract art with vibrant colors.' },
+    28: { id: 28, description: 'Abstract art with vibrant colors.' },
+    29: { id: 29, description: 'Abstract art with vibrant colors.' },
+    30: { id: 30, description: 'Abstract art with vibrant colors.' },
+    31: { id: 31, description: 'Abstract art with vibrant colors.' },
+    32: { id: 32, description: 'Abstract art with vibrant colors.' },
+    33: { id: 33, description: 'Abstract art with vibrant colors.' },
+    34: { id: 34, description: 'Abstract art with vibrant colors.' },
+    35: { id: 35, description: 'Abstract art with vibrant colors.' },
+    36: { id: 36, description: 'Abstract art with vibrant colors.' },
+    37: { id: 37, description: 'Abstract art with vibrant colors.' },
+    38: { id: 38, description: 'Abstract art with vibrant colors.' },
+    39: { id: 39, description: 'Abstract art with vibrant colors.' },
 };
-
-// Replace the imageDetails
-const natureDescriptions = [
-    {
-        id: 1,
-        category: "Sea",
-        description: "The calm sea stretches as far as the eye can see, reflecting the brilliant hues of the sky during sunset."
-    },
-    {
-        id: 2,
-        category: "Ocean",
-        description: "The vast ocean whispers tales of ancient times, its waves gently caressing the sandy shores."
-    },
-    {
-        id: 3,
-        category: "Land",
-        description: "Endless stretches of green land unfold, adorned with colorful wildflowers and dancing butterflies."
-    },
-    {
-        id: 4,
-        category: "Beach",
-        description: "A pristine beach invites with its soft, golden sands and the rhythmic lullaby of rolling waves."
-    },
-    {
-        id: 5,
-        category: "Mountain",
-        description: "Towerous mountains rise majestically, their peaks lost in the embrace of swirling clouds."
-    },
-    {
-        id: 6,
-        category: "Weather",
-        description: "A clear sky paints a canvas of blue, interrupted only by the occasional fluffy clouds drifting lazily."
-    },
-    {
-        id: 7,
-        category: "Sunset",
-        description: "The sun bids adieu, painting the sky in warm hues of orange and pink, casting a serene glow across the landscape."
-    },
-    {
-        id: 8,
-        category: "Forest",
-        description: "A dense forest beckons, its lush canopy creating a world of shadows and sunlight dancing on the forest floor."
-    },
-    {
-        id: 9,
-        category: "Lake",
-        description: "A tranquil lake mirrors the surrounding beauty, reflecting the surrounding trees and the clear blue sky."
-    },
-    {
-        id: 10,
-        category: "Storm",
-        description: "Dark clouds gather, thunder rumbles, and lightning streaks across the sky as nature unleashes its powerful and captivating storm."
-    },
-    {
-        id: 11,
-        category: "Meadow",
-        description: "An open meadow, filled with a carpet of wildflowers, invites you to bask in the gentle warmth of the sun."
-    },
-    {
-        id: 12,
-        category: "Desert",
-        description: "Endless sand dunes stretch into the horizon, the hot desert sun casting mesmerizing patterns on the golden landscape."
-    },
-    {
-        id: 13,
-        category: "Rainforest",
-        description: "The air is thick with humidity as vibrant foliage and exotic creatures create a symphony of life in the heart of the rainforest."
-    },
-    {
-        id: 14,
-        category: "Canyon",
-        description: "A grand canyon reveals the Earth's history through its layered rock formations, carved by the patient hands of time."
-    },
-    {
-        id: 15,
-        category: "Island",
-        description: "A secluded island paradise, surrounded by crystal-clear waters, offers a peaceful retreat from the hustle and bustle of life."
-    }
-];
-
-// console.log(natureDescriptions);
 
   
 module.exports = imageDetails;
